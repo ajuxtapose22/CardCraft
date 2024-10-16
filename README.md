@@ -1,8 +1,8 @@
-# About CardCraft Builder
+# About CardCraft
 
-Welcome to **CardCraft Builder**! 🎉
+Welcome to **CardCraft**! 🎉
 
-CardCraft Builder is an innovative flashcard application designed to help you create, customize, and manage your own flashcards effortlessly. Whether you're a student, educator, or lifelong learner, our app is here to make learning engaging and fun!
+CardCraft is an innovative flashcard application designed to help you create, customize, and manage your own flashcards effortlessly. Whether you're a student, educator, or lifelong learner, our app is here to make learning engaging and fun!
 
 ## Features
 
@@ -12,10 +12,10 @@ CardCraft Builder is an innovative flashcard application designed to help you cr
 
 ## Under Construction
 
-We are currently in the process of developing CardCraft Builder to bring you an even better learning experience! Your patience means a lot to us, and we can't wait to share our progress with you.
+We are currently in the process of developing CardCraft to bring you an even better learning experience! Your patience means a lot to us, and we can't wait to share our progress with you.
 
 ## Stay Updated
 
 Follow us on social media and sign up for our newsletter to receive the latest updates on our launch and new features.
 
-Thank you for your interest in CardCraft Builder! Together, we will make learning enjoyable and effective.
+Thank you for your interest in CardCraft! Together, we will make learning enjoyable and effective.
