@@ -1,0 +1,29 @@
+/* Card container styles */
+.card {
+  background-color: #4793AF; /* Card background color */
+  color: #FFFFFF; /* Text color */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0; /* Only vertical margin for better alignment */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  width: calc(100% - 40px); /* Full width minus margins */
+  height: 200px; /* Fixed height for consistent sizing */
+  transition: transform 0.2s ease; /* Add transition for hover effect */
+}
+
+/* Flip effect styles */
+.content {
+  text-align: center;
+  transition: transform 0.6s;
+  position: relative; /* Positioning for child elements */
+}
+
+/* Question styles */
+.question {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

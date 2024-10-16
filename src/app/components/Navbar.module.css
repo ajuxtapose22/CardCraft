@@ -1,0 +1,81 @@
+/* Navbar container styles */
+.navbar {
+    position: sticky; /* Keeps the navbar at the top when scrolling */
+    top: 0;
+    width: 100%; /* Makes the navbar span the full width of the viewport */
+    background-color: #333;
+    padding: 10px 20px; /* Adds padding to the top/bottom and left/right */
+    z-index: 1000; /* Keeps the navbar above other content */
+}
+
+.container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Centers items vertically */
+    max-width: 1200px; /* Limits the maximum width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    color: #fff; /* Text color */
+}
+
+/* Logo styles */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Hamburger menu icon styles */
+.hamburger {
+    display: none; /* Hidden on larger screens */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px; /* Fixed width for hamburger */
+    height: 20px; /* Fixed height for hamburger */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.line {
+    width: 100%; /* Makes the lines in the hamburger full width of the container */
+    height: 3px; /* Height of the lines */
+    background-color: #fff; /* Color of the lines */
+    transition: all 0.3s ease; /* Smooth transition for the transformation */
+}
+
+/* Navbar links */
+.menu {
+    display: flex; /* Uses flexbox for layout */
+    gap: 20px; /* Space between links */
+}
+
+/* Mobile hamburger menu */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger menu on mobile */
+    }
+
+    .menu {
+        position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+        top: 50px; /* Positioning from the top of the navbar */
+        left: 0; /* Aligns to the left */
+        right: 0; /* Aligns to the right, creating full width */
+        background-color: #333; /* Background color for the dropdown */
+        flex-direction: column; /* Stacks links vertically */
+        align-items: center; /* Centers links horizontally */
+        justify-content: center; /* Centers links vertically */
+        gap: 15px; /* Space between links */
+        padding: 20px 0; /* Padding for the dropdown */
+        display: none; /* Hides the dropdown by default */
+        width: 100vw; /* This spans the full width of the viewport */
+        box-sizing: border-box; /* Ensures padding is included in the width */
+    }
+
+    .menuOpen {
+        display: flex; /* Displays the dropdown when opened */
+    }
+
+    .navLink {
+        font-size: 1.2rem; /* Font size for links */
+        color: #fff;
+
+    }
+}
